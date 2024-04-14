@@ -1,0 +1,50 @@
+/* main.css */
+
+.Temprature {
+  font-size: 12px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 250px;
+  }
+  
+  .Temprature p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Temprature input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    ;
+  }
+  
+  .Temprature button {
+    width: 50%;
+    position:relative;
+    top:20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Temprature button:hover {
+    background-color: #45a049;
+  }
+  
+  .Temprature output {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    top: 75px;
+    margin-top: 10px;
+    font-size: 24px;
+  }
